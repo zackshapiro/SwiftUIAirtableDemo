@@ -1,0 +1,16 @@
+PODS:
+  - SwiftAirtable (1.0.0)
+
+DEPENDENCIES:
+  - SwiftAirtable
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SwiftAirtable
+
+SPEC CHECKSUMS:
+  SwiftAirtable: 5a2178fcdc6102a23eebbbd358941e70c707c3e1
+
+PODFILE CHECKSUM: c5c5e159091d7c30ccd1461f0816242b657537d4
+
+COCOAPODS: 1.8.4

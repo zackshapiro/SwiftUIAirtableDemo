@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		119FA77150169F0C2C03CA35 /* libPods-SwiftUIAirtableDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDBDC5C439303512B737AC2 /* libPods-SwiftUIAirtableDemo.a */; };
 		51C2FF6F2463023A00A271F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF6E2463023A00A271F0 /* AppDelegate.swift */; };
 		51C2FF712463023A00A271F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF702463023A00A271F0 /* SceneDelegate.swift */; };
 		51C2FF732463023A00A271F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF722463023A00A271F0 /* ContentView.swift */; };
 		51C2FF752463023B00A271F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C2FF742463023B00A271F0 /* Assets.xcassets */; };
 		51C2FF782463023B00A271F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C2FF772463023B00A271F0 /* Preview Assets.xcassets */; };
 		51C2FF7B2463023B00A271F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C2FF792463023B00A271F0 /* LaunchScreen.storyboard */; };
+		51C2FF84246302A300A271F0 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF83246302A300A271F0 /* Tag.swift */; };
+		51C2FF86246304B800A271F0 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF85246304B800A271F0 /* Content.swift */; };
+		51C2FF88246304D900A271F0 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF87246304D900A271F0 /* Category.swift */; };
+		51C2FF8B246304FE00A271F0 /* AirtableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF8A246304FE00A271F0 /* AirtableService.swift */; };
+		51C2FF8D2463085600A271F0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF8C2463085600A271F0 /* DetailView.swift */; };
+		51C2FF8F2463086000A271F0 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF8E2463086000A271F0 /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CDBDC5C439303512B737AC2 /* libPods-SwiftUIAirtableDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftUIAirtableDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C2FF6B2463023A00A271F0 /* SwiftUIAirtableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAirtableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C2FF6E2463023A00A271F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C2FF702463023A00A271F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,14 @@
 		51C2FF772463023B00A271F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51C2FF7A2463023B00A271F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51C2FF7C2463023B00A271F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C2FF83246302A300A271F0 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		51C2FF85246304B800A271F0 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		51C2FF87246304D900A271F0 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		51C2FF8A246304FE00A271F0 /* AirtableService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtableService.swift; sourceTree = "<group>"; };
+		51C2FF8C2463085600A271F0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		51C2FF8E2463086000A271F0 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		9565DF3FE0710D3C9C385AE8 /* Pods-SwiftUIAirtableDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIAirtableDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIAirtableDemo/Pods-SwiftUIAirtableDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EE99E053D75A728038B78412 /* Pods-SwiftUIAirtableDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIAirtableDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIAirtableDemo/Pods-SwiftUIAirtableDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				119FA77150169F0C2C03CA35 /* libPods-SwiftUIAirtableDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E1C5FE6F958F29C0FBF20BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9565DF3FE0710D3C9C385AE8 /* Pods-SwiftUIAirtableDemo.debug.xcconfig */,
+				EE99E053D75A728038B78412 /* Pods-SwiftUIAirtableDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		51C2FF622463023A00A271F0 = {
 			isa = PBXGroup;
 			children = (
 				51C2FF6D2463023A00A271F0 /* SwiftUIAirtableDemo */,
 				51C2FF6C2463023A00A271F0 /* Products */,
+				2E1C5FE6F958F29C0FBF20BA /* Pods */,
+				98A5EAD8AB51362853A243A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +84,13 @@
 		51C2FF6D2463023A00A271F0 /* SwiftUIAirtableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				51C2FF89246304F200A271F0 /* Services */,
+				51C2FF822463028B00A271F0 /* Models */,
 				51C2FF6E2463023A00A271F0 /* AppDelegate.swift */,
 				51C2FF702463023A00A271F0 /* SceneDelegate.swift */,
 				51C2FF722463023A00A271F0 /* ContentView.swift */,
+				51C2FF8C2463085600A271F0 /* DetailView.swift */,
+				51C2FF8E2463086000A271F0 /* AppState.swift */,
 				51C2FF742463023B00A271F0 /* Assets.xcassets */,
 				51C2FF792463023B00A271F0 /* LaunchScreen.storyboard */,
 				51C2FF7C2463023B00A271F0 /* Info.plist */,
@@ -75,6 +107,32 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		51C2FF822463028B00A271F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51C2FF87246304D900A271F0 /* Category.swift */,
+				51C2FF85246304B800A271F0 /* Content.swift */,
+				51C2FF83246302A300A271F0 /* Tag.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		51C2FF89246304F200A271F0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				51C2FF8A246304FE00A271F0 /* AirtableService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		98A5EAD8AB51362853A243A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CDBDC5C439303512B737AC2 /* libPods-SwiftUIAirtableDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,6 +140,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51C2FF7F2463023B00A271F0 /* Build configuration list for PBXNativeTarget "SwiftUIAirtableDemo" */;
 			buildPhases = (
+				2A46134092672CCEC41FDF4D /* [CP] Check Pods Manifest.lock */,
 				51C2FF672463023A00A271F0 /* Sources */,
 				51C2FF682463023A00A271F0 /* Frameworks */,
 				51C2FF692463023A00A271F0 /* Resources */,
@@ -141,14 +200,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A46134092672CCEC41FDF4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIAirtableDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51C2FF672463023A00A271F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C2FF84246302A300A271F0 /* Tag.swift in Sources */,
+				51C2FF8D2463085600A271F0 /* DetailView.swift in Sources */,
 				51C2FF6F2463023A00A271F0 /* AppDelegate.swift in Sources */,
+				51C2FF8F2463086000A271F0 /* AppState.swift in Sources */,
+				51C2FF8B246304FE00A271F0 /* AirtableService.swift in Sources */,
 				51C2FF712463023A00A271F0 /* SceneDelegate.swift in Sources */,
+				51C2FF86246304B800A271F0 /* Content.swift in Sources */,
 				51C2FF732463023A00A271F0 /* ContentView.swift in Sources */,
+				51C2FF88246304D900A271F0 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +372,7 @@
 		};
 		51C2FF802463023B00A271F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9565DF3FE0710D3C9C385AE8 /* Pods-SwiftUIAirtableDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +393,7 @@
 		};
 		51C2FF812463023B00A271F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE99E053D75A728038B78412 /* Pods-SwiftUIAirtableDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

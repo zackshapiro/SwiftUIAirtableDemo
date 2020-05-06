@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06694B74A9095EF200424B8A78F5E2AF /* Pods-SwiftUIAirtableDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BAD971848E64BEFD1C96C8BB085C67 /* Pods-SwiftUIAirtableDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3598F4FA24B64EA6E7D21A1F37048840 /* Pods-SwiftUIAirtableDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 346C071370A70E8631BB0C8FBAEE355D /* Pods-SwiftUIAirtableDemo-dummy.m */; };
+		578FFE9DE5DDD72668F704EE944A7205 /* SwiftAirtable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AABD41C00AAC86ECDC9DAAE9A63D88 /* SwiftAirtable-dummy.m */; };
+		667122A7D0FD8C447672343A49C3DB27 /* SwiftAirtable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 103E1A292C588656226565B09CE6C455 /* SwiftAirtable-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7349555D036BCD0DFB94617BBB0E24D /* Airtable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C504E94B3FB213DB50BDA7713BDB6E /* Airtable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BEEED0BB8BB1DFA663E9D7F87DD5FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B9DD36F66CE661227EBE7FDF26AB6CC;
+			remoteInfo = SwiftAirtable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		103E1A292C588656226565B09CE6C455 /* SwiftAirtable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAirtable-umbrella.h"; sourceTree = "<group>"; };
+		1EA117EA36B6464CBBEAE54A5356B8C2 /* libSwiftAirtable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwiftAirtable.a; path = libSwiftAirtable.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		346C071370A70E8631BB0C8FBAEE355D /* Pods-SwiftUIAirtableDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUIAirtableDemo-dummy.m"; sourceTree = "<group>"; };
+		36926A9E060DB68498E948F17E5A60F4 /* libPods-SwiftUIAirtableDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SwiftUIAirtableDemo.a"; path = "libPods-SwiftUIAirtableDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AABD41C00AAC86ECDC9DAAE9A63D88 /* SwiftAirtable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAirtable-dummy.m"; sourceTree = "<group>"; };
+		8F7DF4947C2E481A026BE1AA86A75525 /* Pods-SwiftUIAirtableDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUIAirtableDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9B1ECF241794A9F63A62046336311300 /* Pods-SwiftUIAirtableDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUIAirtableDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0CDFF2A3A2F1FD1CE4AB3E0D16A1A08 /* SwiftAirtable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAirtable.xcconfig; sourceTree = "<group>"; };
+		B2C504E94B3FB213DB50BDA7713BDB6E /* Airtable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Airtable.swift; path = SwiftAirtable/Classes/Airtable.swift; sourceTree = "<group>"; };
+		BEC263B93488A3BB3B00BF2227886C91 /* SwiftAirtable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftAirtable.modulemap; sourceTree = "<group>"; };
+		C5BAD971848E64BEFD1C96C8BB085C67 /* Pods-SwiftUIAirtableDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUIAirtableDemo-umbrella.h"; sourceTree = "<group>"; };
+		D56C52A669F90CC82DBA69D944F9874F /* Pods-SwiftUIAirtableDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUIAirtableDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D896A5488DA5EAE56413A019705BA0B7 /* Pods-SwiftUIAirtableDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUIAirtableDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD02DD8D788B095205DE36E575809470 /* Pods-SwiftUIAirtableDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUIAirtableDemo.modulemap"; sourceTree = "<group>"; };
+		ED79F959BBC46D27A29CF77F8843E1FA /* SwiftAirtable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAirtable-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554B2F66D827A63C594E57062B95AD37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7823FCB4DF2960810FEF6C06813E1E42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		634E0C97532F00BA344843E244656D2D /* Pods-SwiftUIAirtableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DD02DD8D788B095205DE36E575809470 /* Pods-SwiftUIAirtableDemo.modulemap */,
+				D896A5488DA5EAE56413A019705BA0B7 /* Pods-SwiftUIAirtableDemo-acknowledgements.markdown */,
+				9B1ECF241794A9F63A62046336311300 /* Pods-SwiftUIAirtableDemo-acknowledgements.plist */,
+				346C071370A70E8631BB0C8FBAEE355D /* Pods-SwiftUIAirtableDemo-dummy.m */,
+				C5BAD971848E64BEFD1C96C8BB085C67 /* Pods-SwiftUIAirtableDemo-umbrella.h */,
+				8F7DF4947C2E481A026BE1AA86A75525 /* Pods-SwiftUIAirtableDemo.debug.xcconfig */,
+				D56C52A669F90CC82DBA69D944F9874F /* Pods-SwiftUIAirtableDemo.release.xcconfig */,
+			);
+			name = "Pods-SwiftUIAirtableDemo";
+			path = "Target Support Files/Pods-SwiftUIAirtableDemo";
+			sourceTree = "<group>";
+		};
+		6DB830A0CE1254B76024A162DD5739FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				634E0C97532F00BA344843E244656D2D /* Pods-SwiftUIAirtableDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7CA63890876B1A4B8D96C93A311863A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC22BA6B6E66D3F15F928965B14D0052 /* SwiftAirtable */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B353AB9F077A12A81479E5C34AEE1B45 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEC263B93488A3BB3B00BF2227886C91 /* SwiftAirtable.modulemap */,
+				A0CDFF2A3A2F1FD1CE4AB3E0D16A1A08 /* SwiftAirtable.xcconfig */,
+				52AABD41C00AAC86ECDC9DAAE9A63D88 /* SwiftAirtable-dummy.m */,
+				ED79F959BBC46D27A29CF77F8843E1FA /* SwiftAirtable-prefix.pch */,
+				103E1A292C588656226565B09CE6C455 /* SwiftAirtable-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftAirtable";
+			sourceTree = "<group>";
+		};
+		BEBEA638E5B292AF4DA41D39FF899083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36926A9E060DB68498E948F17E5A60F4 /* libPods-SwiftUIAirtableDemo.a */,
+				1EA117EA36B6464CBBEAE54A5356B8C2 /* libSwiftAirtable.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7CA63890876B1A4B8D96C93A311863A7 /* Pods */,
+				BEBEA638E5B292AF4DA41D39FF899083 /* Products */,
+				6DB830A0CE1254B76024A162DD5739FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC22BA6B6E66D3F15F928965B14D0052 /* SwiftAirtable */ = {
+			isa = PBXGroup;
+			children = (
+				B2C504E94B3FB213DB50BDA7713BDB6E /* Airtable.swift */,
+				B353AB9F077A12A81479E5C34AEE1B45 /* Support Files */,
+			);
+			name = SwiftAirtable;
+			path = SwiftAirtable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		887886B484D3C58B4F1E9B42F6285C01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667122A7D0FD8C447672343A49C3DB27 /* SwiftAirtable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02895073691124B12E597A887DA1674 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06694B74A9095EF200424B8A78F5E2AF /* Pods-SwiftUIAirtableDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B9DD36F66CE661227EBE7FDF26AB6CC /* SwiftAirtable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC13BAEDB80E341C57B5D2F57E58B25 /* Build configuration list for PBXNativeTarget "SwiftAirtable" */;
+			buildPhases = (
+				887886B484D3C58B4F1E9B42F6285C01 /* Headers */,
+				CE5E6BDFFD23C5B75903360EBF188CC3 /* Sources */,
+				7823FCB4DF2960810FEF6C06813E1E42 /* Frameworks */,
+				7240D715F4E9DD9B9515D83012BD68D7 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAirtable;
+			productName = SwiftAirtable;
+			productReference = 1EA117EA36B6464CBBEAE54A5356B8C2 /* libSwiftAirtable.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DD385B7E6CA9122EF23ED71D4D8118A1 /* Pods-SwiftUIAirtableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4469EFEC3F6263E71377C4A9C887438D /* Build configuration list for PBXNativeTarget "Pods-SwiftUIAirtableDemo" */;
+			buildPhases = (
+				A02895073691124B12E597A887DA1674 /* Headers */,
+				DAE7EC73D75C9487D9559994CCA79163 /* Sources */,
+				554B2F66D827A63C594E57062B95AD37 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27A3CA4F25C69B7D06CA9C98C8171923 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftUIAirtableDemo";
+			productName = "Pods-SwiftUIAirtableDemo";
+			productReference = 36926A9E060DB68498E948F17E5A60F4 /* libPods-SwiftUIAirtableDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BEBEA638E5B292AF4DA41D39FF899083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD385B7E6CA9122EF23ED71D4D8118A1 /* Pods-SwiftUIAirtableDemo */,
+				5B9DD36F66CE661227EBE7FDF26AB6CC /* SwiftAirtable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7240D715F4E9DD9B9515D83012BD68D7 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwiftAirtable/SwiftAirtable.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwiftAirtable/SwiftAirtable-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwiftAirtable-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftAirtable/SwiftAirtable.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwiftAirtable/SwiftAirtable-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5E6BDFFD23C5B75903360EBF188CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7349555D036BCD0DFB94617BBB0E24D /* Airtable.swift in Sources */,
+				578FFE9DE5DDD72668F704EE944A7205 /* SwiftAirtable-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE7EC73D75C9487D9559994CCA79163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3598F4FA24B64EA6E7D21A1F37048840 /* Pods-SwiftUIAirtableDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27A3CA4F25C69B7D06CA9C98C8171923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftAirtable;
+			target = 5B9DD36F66CE661227EBE7FDF26AB6CC /* SwiftAirtable */;
+			targetProxy = 3BEEED0BB8BB1DFA663E9D7F87DD5FE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2116AD2F482673D62E85A15936942882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7DF4947C2E481A026BE1AA86A75525 /* Pods-SwiftUIAirtableDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUIAirtableDemo/Pods-SwiftUIAirtableDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45CFB93BD0DEC5C5521E0AD689B0E9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CDFF2A3A2F1FD1CE4AB3E0D16A1A08 /* SwiftAirtable.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAirtable/SwiftAirtable-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/SwiftAirtable/SwiftAirtable.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftAirtable;
+				PRODUCT_NAME = SwiftAirtable;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F239FF622460ADE0620F2FAE3B03144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CDFF2A3A2F1FD1CE4AB3E0D16A1A08 /* SwiftAirtable.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAirtable/SwiftAirtable-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/SwiftAirtable/SwiftAirtable.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftAirtable;
+				PRODUCT_NAME = SwiftAirtable;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8190074D012952F765013E89A938B78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56C52A669F90CC82DBA69D944F9874F /* Pods-SwiftUIAirtableDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUIAirtableDemo/Pods-SwiftUIAirtableDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4469EFEC3F6263E71377C4A9C887438D /* Build configuration list for PBXNativeTarget "Pods-SwiftUIAirtableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2116AD2F482673D62E85A15936942882 /* Debug */,
+				8190074D012952F765013E89A938B78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC13BAEDB80E341C57B5D2F57E58B25 /* Build configuration list for PBXNativeTarget "SwiftAirtable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CFB93BD0DEC5C5521E0AD689B0E9A0 /* Debug */,
+				4F239FF622460ADE0620F2FAE3B03144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

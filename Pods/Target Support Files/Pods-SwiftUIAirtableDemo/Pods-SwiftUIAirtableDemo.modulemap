@@ -1,0 +1,6 @@
+module Pods_SwiftUIAirtableDemo {
+  umbrella header "Pods-SwiftUIAirtableDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

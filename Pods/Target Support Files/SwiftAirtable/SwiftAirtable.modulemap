@@ -1,0 +1,6 @@
+module SwiftAirtable {
+  umbrella header "SwiftAirtable-umbrella.h"
+
+  export *
+  module * { export * }
+}
