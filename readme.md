@@ -47,4 +47,4 @@ Feel free to contribute. Leave an Issue if there is one.
 
 ## License
 
-This code is provided as-is under the MIT license.
+[MIT](https://github.com/zackshapiro/SwiftUIAirtableDemo/blob/master/LICENSE)
