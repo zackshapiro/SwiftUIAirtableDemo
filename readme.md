@@ -2,7 +2,13 @@
 
 This is a small, functional example app that demonstrates how you can use Airtable as a lightweight backend. I wouldn't recommend using Airtable to store fast-moving data but as a means of storing strings, images, positions of views, and general data that won't get updated very often, Airtable could be a potential option for you.
 
-Create by [Zack Shapiro](https://twitter.com/zackshapiro)
+Created by [Zack Shapiro](https://twitter.com/zackshapiro)
+
+---
+
+## Demo
+
+Check out the [video demo](https://share.getcloudapp.com/bLue5z98) of this app.
 
 ---
 
@@ -19,10 +25,6 @@ Create by [Zack Shapiro](https://twitter.com/zackshapiro)
 ![](https://p93.f3.n0.cdn.getcloudapp.com/items/BluZWjKm/Simulator%20Screen%20Shot%20-%20iPhone%20SE%20%282nd%20generation%29%20-%202020-05-07%20at%2013.18.57.png?v=e42b4b30c4fd5da17ccde5a61d7cf2d4)
 
 ---
-
-## Demo
-
-Check out the [video demo](https://share.getcloudapp.com/bLue5z98) of this app.
 
 ## Running the app
 
