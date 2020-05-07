@@ -8,9 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		119FA77150169F0C2C03CA35 /* libPods-SwiftUIAirtableDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDBDC5C439303512B737AC2 /* libPods-SwiftUIAirtableDemo.a */; };
+		514DBAD9246474AC00E9B03F /* UIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514DBAD8246474AC00E9B03F /* UIComponent.swift */; };
+		514DBADB246474FE00E9B03F /* AirtableUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514DBADA246474FE00E9B03F /* AirtableUIModel.swift */; };
+		514DBADD2464752700E9B03F /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514DBADC2464752700E9B03F /* View+Extensions.swift */; };
+		514DBADF2464754800E9B03F /* HiComponent+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514DBADE2464754800E9B03F /* HiComponent+View.swift */; };
+		514DBAE1246475BA00E9B03F /* ByeComponent+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514DBAE0246475BA00E9B03F /* ByeComponent+View.swift */; };
+		514DBAE32464760E00E9B03F /* MiddleComponent+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514DBAE22464760E00E9B03F /* MiddleComponent+View.swift */; };
+		514DBAE52464767400E9B03F /* SettingsComponent+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514DBAE42464767400E9B03F /* SettingsComponent+View.swift */; };
 		51C2FF6F2463023A00A271F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF6E2463023A00A271F0 /* AppDelegate.swift */; };
 		51C2FF712463023A00A271F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF702463023A00A271F0 /* SceneDelegate.swift */; };
-		51C2FF732463023A00A271F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF722463023A00A271F0 /* ContentView.swift */; };
+		51C2FF732463023A00A271F0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2FF722463023A00A271F0 /* HomeView.swift */; };
 		51C2FF752463023B00A271F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C2FF742463023B00A271F0 /* Assets.xcassets */; };
 		51C2FF782463023B00A271F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C2FF772463023B00A271F0 /* Preview Assets.xcassets */; };
 		51C2FF7B2463023B00A271F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C2FF792463023B00A271F0 /* LaunchScreen.storyboard */; };
@@ -24,10 +31,17 @@
 
 /* Begin PBXFileReference section */
 		0CDBDC5C439303512B737AC2 /* libPods-SwiftUIAirtableDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftUIAirtableDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		514DBAD8246474AC00E9B03F /* UIComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponent.swift; sourceTree = "<group>"; };
+		514DBADA246474FE00E9B03F /* AirtableUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtableUIModel.swift; sourceTree = "<group>"; };
+		514DBADC2464752700E9B03F /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		514DBADE2464754800E9B03F /* HiComponent+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HiComponent+View.swift"; sourceTree = "<group>"; };
+		514DBAE0246475BA00E9B03F /* ByeComponent+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ByeComponent+View.swift"; sourceTree = "<group>"; };
+		514DBAE22464760E00E9B03F /* MiddleComponent+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MiddleComponent+View.swift"; sourceTree = "<group>"; };
+		514DBAE42464767400E9B03F /* SettingsComponent+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsComponent+View.swift"; sourceTree = "<group>"; };
 		51C2FF6B2463023A00A271F0 /* SwiftUIAirtableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAirtableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C2FF6E2463023A00A271F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C2FF702463023A00A271F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		51C2FF722463023A00A271F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51C2FF722463023A00A271F0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		51C2FF742463023B00A271F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51C2FF772463023B00A271F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51C2FF7A2463023B00A271F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +77,27 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		514DBAE6246476E200E9B03F /* Components and Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				514DBADE2464754800E9B03F /* HiComponent+View.swift */,
+				514DBAE0246475BA00E9B03F /* ByeComponent+View.swift */,
+				514DBAE22464760E00E9B03F /* MiddleComponent+View.swift */,
+				514DBAE42464767400E9B03F /* SettingsComponent+View.swift */,
+			);
+			path = "Components and Subviews";
+			sourceTree = "<group>";
+		};
+		514DBAE7246477CE00E9B03F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				514DBADC2464752700E9B03F /* View+Extensions.swift */,
+				514DBADA246474FE00E9B03F /* AirtableUIModel.swift */,
+				514DBAD8246474AC00E9B03F /* UIComponent.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		51C2FF622463023A00A271F0 = {
 			isa = PBXGroup;
 			children = (
@@ -84,13 +119,14 @@
 		51C2FF6D2463023A00A271F0 /* SwiftUIAirtableDemo */ = {
 			isa = PBXGroup;
 			children = (
-				51C2FF89246304F200A271F0 /* Services */,
+				514DBAE7246477CE00E9B03F /* Common */,
+				514DBAE6246476E200E9B03F /* Components and Subviews */,
 				51C2FF822463028B00A271F0 /* Models */,
+				51C2FF89246304F200A271F0 /* Services */,
 				51C2FF6E2463023A00A271F0 /* AppDelegate.swift */,
 				51C2FF702463023A00A271F0 /* SceneDelegate.swift */,
-				51C2FF722463023A00A271F0 /* ContentView.swift */,
+				51C2FF722463023A00A271F0 /* HomeView.swift */,
 				51C2FF8C2463085600A271F0 /* DetailView.swift */,
-				51C2FF8E2463086000A271F0 /* AppState.swift */,
 				51C2FF742463023B00A271F0 /* Assets.xcassets */,
 				51C2FF792463023B00A271F0 /* LaunchScreen.storyboard */,
 				51C2FF7C2463023B00A271F0 /* Info.plist */,
@@ -110,6 +146,7 @@
 		51C2FF822463028B00A271F0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				51C2FF8E2463086000A271F0 /* AppState.swift */,
 				51C2FF87246304D900A271F0 /* Category.swift */,
 				51C2FF85246304B800A271F0 /* Content.swift */,
 				51C2FF83246302A300A271F0 /* Tag.swift */,
@@ -231,14 +268,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				51C2FF84246302A300A271F0 /* Tag.swift in Sources */,
+				514DBAE52464767400E9B03F /* SettingsComponent+View.swift in Sources */,
+				514DBADF2464754800E9B03F /* HiComponent+View.swift in Sources */,
 				51C2FF8D2463085600A271F0 /* DetailView.swift in Sources */,
 				51C2FF6F2463023A00A271F0 /* AppDelegate.swift in Sources */,
 				51C2FF8F2463086000A271F0 /* AppState.swift in Sources */,
+				514DBADB246474FE00E9B03F /* AirtableUIModel.swift in Sources */,
 				51C2FF8B246304FE00A271F0 /* AirtableService.swift in Sources */,
 				51C2FF712463023A00A271F0 /* SceneDelegate.swift in Sources */,
 				51C2FF86246304B800A271F0 /* Content.swift in Sources */,
-				51C2FF732463023A00A271F0 /* ContentView.swift in Sources */,
+				51C2FF732463023A00A271F0 /* HomeView.swift in Sources */,
 				51C2FF88246304D900A271F0 /* Category.swift in Sources */,
+				514DBAE32464760E00E9B03F /* MiddleComponent+View.swift in Sources */,
+				514DBADD2464752700E9B03F /* View+Extensions.swift in Sources */,
+				514DBAD9246474AC00E9B03F /* UIComponent.swift in Sources */,
+				514DBAE1246475BA00E9B03F /* ByeComponent+View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

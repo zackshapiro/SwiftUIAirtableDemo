@@ -6,7 +6,9 @@
 //  Copyright © 2020 Zack Shapiro. All rights reserved.
 //
 
-enum Category: String {
+enum Category: String, CaseIterable {
+    
     case fruit
     case vegetables
+    
 }

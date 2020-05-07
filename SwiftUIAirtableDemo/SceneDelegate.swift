@@ -21,13 +21,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
         loadAirtableContent()
-        let contentView = ContentView()
+        let homeView = HomeView()
             .environmentObject(appState)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView)
+            window.rootViewController = UIHostingController(rootView: homeView)
             self.window = window
             window.makeKeyAndVisible()
         }
@@ -36,21 +36,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     private func loadAirtableContent() {
         AirtableService.fetchTags { result in
             DispatchQueue.main.async {
-                result.mapError { error in
-                    fatalError("We should fix something")
-                }.map {
-                    self.appState.tags = $0
+                switch result {
+                case let .failure(error):
+                    print("there was an error: \(error.localizedDescription)")
+                case let .success(tags):
+                    self.appState.tags = tags
                 }
             }
         }
         
         AirtableService.fetchContent { result in
             DispatchQueue.main.async {
-                result.mapError { error in
-                    fatalError("We should fix something")
-                }
-                .map {
-                    self.appState.content = $0
+                switch result {
+                case let .failure(error):
+                    print("there was an error: \(error.localizedDescription)")
+                case let .success(content):
+                    self.appState.content = content
                 }
             }
         }

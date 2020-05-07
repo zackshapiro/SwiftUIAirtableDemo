@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-// Help from: https://medium.com/@ammanavaranup/466ecca97290
+// Inspired by: https://medium.com/@ammanavaranup/466ecca97290
 final class AppState: ObservableObject {
     
     @Published var content: [Content] = [] {
@@ -16,9 +16,12 @@ final class AppState: ObservableObject {
             self.components = self.content.map { self.parseToUIComponent($0) }
         }
     }
+    
     @Published var tags: [Tag] = []
     
     @Published var components: [UIComponent] = []
+    
+    // MARK: - Public Functions
     
     func parseToUIComponent(_ content: Content) -> UIComponent {
         let component: UIComponent
