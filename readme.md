@@ -30,7 +30,7 @@ Check out the [video demo](https://share.getcloudapp.com/bLue5z98) of this app.
 
 1. Clone the repo and open the `.xcworkspace` file (You shouldn't need to run `pod install`).
 2. Create your own Airtables and mimick the same column types and data as I have in the screenshots above.
-3. Visit https://airtable.com/api, choose your Base, and get the link to your base and API key. Plug those into `AirtableService.swift`.
+3. **Important**: Visit https://airtable.com/api, choose your Base, and get the link to your base and API key. Plug those into `apiKey` and `apiBaseUrl` in [`AirtableService.swift`](https://github.com/zackshapiro/SwiftUIAirtableDemo/blob/master/SwiftUIAirtableDemo/Services/AirtableService.swift#L14).
 4. Build and run the app.
 
 ## Requirements
