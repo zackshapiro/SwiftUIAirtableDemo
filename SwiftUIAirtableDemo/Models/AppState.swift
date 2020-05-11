@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-// Inspired by: https://medium.com/@ammanavaranup/466ecca97290
+
 final class AppState: ObservableObject {
     
     @Published var content: [Content] = [] {
@@ -23,6 +23,7 @@ final class AppState: ObservableObject {
     
     // MARK: - Public Functions
     
+    /// Inspired by: https://medium.com/better-programming/build-a-server-driven-ui-using-ui-components-in-swiftui-466ecca97290#ef62-ec4eacc8bdf2-reply
     func parseToUIComponent(_ content: Content) -> UIComponent {
         let component: UIComponent
         

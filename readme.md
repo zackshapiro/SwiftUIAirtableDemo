@@ -42,6 +42,7 @@ Built using:
 - [SwiftAirtable](https://github.com/nicolasnascimento/SwiftAirtable)
 - SwiftUI
 - Airtable
+- [Build a Server-Driven UI Using UI Components in SwiftUI](https://medium.com/better-programming/build-a-server-driven-ui-using-ui-components-in-swiftui-466ecca97290) on [Better Programming](https://medium.com/better-programming)
 
 ## Contributing
 
